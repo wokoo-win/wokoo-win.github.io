@@ -1,0 +1,295 @@
+body {
+	margin: 0px;
+}
+
+#page_bga {
+	position: absolute;
+	opacity: 1;
+	width: 100%;
+	height: 980px;
+	z-index: -1;
+	background: url(http://cdn.www.youzimu.com/images/uk.png) no-repeat scroll 0 0;
+}
+
+#page_bgb {
+	position: absolute;
+	opacity: 1;
+	width: 100%;
+	height: 980px;
+	z-index: -2;
+	background: url(http://cdn.www.youzimu.com/images/japan.png) no-repeat scroll 0 0;
+}
+
+/*page_content*/
+#page_con {
+	width: 100%;
+	margin: 0px auto;
+	/*background-color: rgb(99,99,99);*/
+}
+
+/*background*/
+#page_cons {
+	/*position: absolute;*/
+	position: relative;
+	width: 100%;
+	height: 980px;
+	/*z-index: -1;*/
+	/*background: url(http://cdn.www.youzimu.com/images/usa.png) no-repeat scroll 0 0;*/
+}
+
+#firstscreen {
+	margin: 0px auto;
+	max-width: 1000px;
+	min-width: 1000px;
+}
+
+/*navgation*/
+#nav {
+	width: 100%;
+	min-width: 540px;
+	height: 86px;
+	margin: 0px auto;
+	/*background: rgba(255, 255, 255, 0.5) none no-repeat scroll 0 0;*/
+}
+#nav a {
+	display: block;	
+	height: 86px;
+}
+#logo {
+	width: 216px;
+	margin: 0px 0px;
+	padding-left: 12px;
+	padding-top: 10px;
+	background: url(http://cdn.www.youzimu.com/images/titlebg.png) no-repeat scroll 0 0;
+	float: left;
+}
+
+.login {
+	line-height: 40px;
+	margin: 18px 5px;
+	font-size: 15px;
+	float: right;
+	font-family: 微软雅黑;
+	font-weight: 2px;
+	text-decoration: none;
+	color: rgb(50, 50, 50);
+}
+.login_onmouseover {
+	line-height: 40px;
+	margin: 18px 5px;
+	font-size: 15px;
+	float: right;
+	font-family: 微软雅黑;
+	font-weight: 2px;
+	text-decoration: none;
+	color: rgb(113, 191, 219);
+}
+.icon {
+	width: 40px;
+	margin: 18px 10px;
+	float: right;
+}
+#weibo {
+	background: url(http://cdn.www.youzimu.com/images/weibo.png) no-repeat scroll 0 0;
+}
+#wechat {
+	background: url(http://cdn.www.youzimu.com/images/wechat.png) no-repeat scroll 0 0;
+}
+#website {
+	background: url(http://cdn.www.youzimu.com/images/taolunban.png) no-repeat scroll 0 0;
+}
+
+/*main*/
+#main {
+	/*background: rgba(255, 255, 55, 0.5);*/
+	/*height: 1000px;*/
+}
+#app_logo {
+	width: 222px;
+	height: 224px;
+	margin: 60px auto 0 auto;
+	background: url(http://cdn.www.youzimu.com/images/applogo.png) no-repeat scroll 0 0;
+}
+#app_name {
+	width: 163px;
+	height: 43px;
+	margin: 20px auto 0 auto;
+	background: url(http://cdn.www.youzimu.com/images/appname.png) no-repeat scroll 0 0;
+}
+#app_intro {
+	width: 532px;
+	height: 40px;
+	margin: 20px auto 0 auto;
+	background: url(http://cdn.www.youzimu.com/images/appintro.png) no-repeat scroll 0 0;
+}
+#app_con {
+	margin-top: 69px;
+}
+#app_show {
+	width: 479px;
+	height: 423px;
+	float: left;
+	background: url(http://cdn.www.youzimu.com/images/iphone.png) no-repeat scroll 0 0;
+}
+#app_download {
+	padding-top: 90px;
+	max-width: 479px;
+	min-width: 371px;
+	height: 333px;
+	float: right;
+}
+#ios_download {
+	width: 321px;
+	height: 98px;
+	margin: 20px 0px 20px 0px;
+	background: url(http://cdn.www.youzimu.com/images/ios.png) no-repeat scroll 0 0;
+	float: right;
+}
+#android_download {
+	width: 321px;
+	height: 98px;
+	margin: 20px 0px 20px 0px;
+	background: url(http://cdn.www.youzimu.com/images/android.png) no-repeat scroll 0 0;
+	float: right;
+}
+
+/*feature*/
+#app_feature {
+	width: 100%;
+	min-width: 540px;
+	margin: 0px auto;
+	float right;
+	/*background-color: rgb(45,45,45);*/
+}
+.feature13_bg {
+	height: 440px;
+	margin: 0px;
+	background-color: rgb(240, 240, 240);
+}
+.feature24_bg {
+	height: 440px;
+	margin: 0px;
+}
+.feature_con {
+	width: 1000px;
+	padding: 5% 0;
+	margin: 0px auto;
+	min-width: 1000px;
+}
+.fea_text {
+	padding-top: 55px;
+	width: 500px;
+}
+#fea1_img {
+	height: 279px;
+	width: 401px;
+	float: left;
+	background: url(http://cdn.www.youzimu.com/images/4.png) no-repeat scroll 0 0;
+}
+#fea1_text {
+	float: right;
+}
+#fea3_img {
+	height: 229px;
+	width: 453px;
+	float: left;
+	background: url(http://cdn.www.youzimu.com/images/2.png) no-repeat scroll 0 0;
+}
+#fea3_text {
+	float: right;
+}
+#fea2_img {
+	height: 237px;
+	width: 237px;
+	float: right;
+	background: url(http://cdn.www.youzimu.com/images/3.png) no-repeat scroll 0 0;
+}
+#fea2_text {
+	float: left;
+}
+#fea4_img {
+	height: 241px;
+	width: 215px;
+	float: right;
+	background: url(http://cdn.www.youzimu.com/images/1.png) no-repeat scroll 0 0;
+}
+#fea4_text {
+	float: left;
+}
+.fea_title {
+	font-size: 48px;
+	color: rgb(51, 51, 51);
+	margin: 8px 0px;
+	font-family: 微软雅黑;
+}
+.fea_con {
+	font-size: 16px;
+	color: rgb(51, 51, 51);
+	font-family: 微软雅黑;
+}
+.fea_con span {
+	color: rgb(113, 191, 219);
+}
+
+/*footer*/
+#footer {
+	height: 85px;
+	width: 100%;
+	margin: 0px;
+	padding-top: 20px;
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 15px;
+	color: rgb(50, 50, 50);
+	background-color: rgb(240, 240, 240);
+	clear: both;
+}
+.foot_con {
+	line-height: 40px;
+	margin: 18px 5px;
+	font-size: 15px;
+	font-family: 微软雅黑;
+	font-weight: 2px;
+	text-decoration: none;
+	color: rgb(50, 50, 50);
+}
+.foot_con_onmouseover {
+	line-height: 40px;
+	margin: 18px 5px;
+	font-size: 15px;
+	font-family: 微软雅黑;
+	font-weight: 2px;
+	text-decoration: none;
+	color: rgb(113, 191, 219);
+}
+
+
+/*wechat*/
+.shadow_lay{ 
+	display: none; 
+	position: fixed; 
+	top: 0%; 
+	left: 0%; 
+	width: 100%; 
+	height: 100%; 
+	background-color: rgba(0, 0, 0, 0.2); 
+	z-index:1001; 
+} 
+.shadow_lay a { 
+	display: inherit;
+	width: 100%; 
+	height: 100%; 
+} 
+.qrcode { 
+	display: none; 
+	position: fixed; 
+	top: 20%; 
+	left: 40%; 
+	width: 20%; 
+	background-color: rgb(255, 255, 255); 
+	z-index:1002; 
+	overflow: auto; 
+} 
+.qrcode img {
+	width: 100%;
+}
